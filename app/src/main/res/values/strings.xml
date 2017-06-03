@@ -1,0 +1,80 @@
+<resources>
+    <!--Start Activity-->
+    <string name="app_name">Gravy Truck</string>
+    <string name="register">inscription</string>
+    <string name="connection">connexion</string>
+
+    <!--SignIn Activity-->
+    <string name="signin_placeholder_password">Mot de passe</string>
+    <string name="signin_placeholder_username">Nom</string>
+
+    <!--Sign Up Activity-->
+    <string name="signup_placeholder_username">Nom</string>
+    <string name="signup_placeholder_password">Mot de passe</string>
+
+    <!--Maps Activity-->
+    <string name="title_activity_maps">Map</string>
+    <string name="click">Go</string>
+    <string name="go_button_text">Go</string>
+    <string name="go_to_profile">Voir son profil</string>
+        <!--Parent Fragment-->
+        <string name="infos_button">Infos</string>
+        <string name="menu_button">Menu</string>
+        <string name="recommendation_button">Avis</string>
+            <!--Information Fragment-->
+            <string name="foodtruck_name">Nom du foodtruck</string>
+            <string name="number_likes">0</string>
+            <string name="image_like_description">heart</string>
+            <string name="foodtruck_address">Adresse du foodtruck</string>
+            <string name="food_type">Food</string>
+            <string name="opening_hours">Horaires d\'ouverture</string>
+            <string name="foodtruck_distance">Km</string>
+            <string name="call_foodtruck">Appeler le foodtruck</string>
+            <string name="fav_foodtruck">Favoris</string>
+            <!--Menu Fragment-->
+            <string name="food_name">Name</string>
+            <string name="food_price">Price</string>
+            <string name="euros">€</string>
+            <!--Recommendation Fragment-->
+            <string name="username">UserName</string>
+            <string name="comment">Comment</string>
+            <string name="leave_a_comment">Donner votre avis...</string>
+
+    <!--Profile Activity-->
+    <string name="user_name">Mabelle Morgan</string>
+    <string name="modify_profile">Modifier mon profil</string>
+    <string name="parameters">Paramètres</string>
+
+    <!--AddFoodtruck Activity-->
+    <string name="title_add_foodtruck">Proposez un food truck !</string>
+    <string name="name_suggestion_foodtruck">Nom du food truck</string>
+    <string name="hint_name_suggestion_foodtruck">Le Camion Gourmand</string>
+    <string name="foodtruck_address_suggestion">Adresse du food truck</string>
+    <string name="hint_foodtruck_address_suggestion">27 rue du Progrès, 931000 Montreuil</string>
+    <string name="more_suggestion">Quelque chose à ajouter ?</string>
+    <string name="hint_more_suggestion">Nourriture servie / Horaires / ...</string>
+    <string name="send_suggestion">Envoyer</string>
+
+    <!--Thanks Activity-->
+    <string name="thanks_title">Hell yeah</string>
+    <string name="thanks_text">Merci d\'avoir ajouté ce food truck.   Nous allons l\'ajouter dès que possible !</string>
+    <string name="thanks_button">Continuer</string>
+
+    <!--FavoriteFoodtruck Activity-->
+    <string name="favorite_title">Les food trucks que j\'aime</string>
+    <string name="favorite_foodtruck_name">Nom</string>
+
+    <!--API-->
+        <!--Our-->
+        <string name="api_address">http://138.68.228.13</string>
+        <string name="api_key">351972ebb54568</string>
+        <!--Google Direction-->
+        <string name="DIRECTION_URL_API">https://maps.googleapis.com/maps/api/directions/json?</string>
+        <string name="API_DIRECTION_KEY">AIzaSyAJAbj0DDOkVHEEtRv4Du879UR9GzEYK3Q</string>
+
+    <!--Images-->
+    <string name="foodtruck_image_home">Foodtruck avec ville en arrière-plan</string>
+    <string name="tacos_truck_with_city">Camion de tacos avec ville en arrière-plan</string>
+    <string name="background_profile">Camion de glace avec ville en arrière-plan</string>
+
+</resources>

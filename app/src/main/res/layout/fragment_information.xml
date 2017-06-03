@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/fragment_margin"
+    android:layout_marginRight="@dimen/fragment_margin"
+    android:layout_marginTop="10dp"
+    app:layout_constraintRight_toRightOf="parent">
+
+    <TextView
+        android:id="@+id/foodtuck_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/basic_margin"
+        android:hint="@string/foodtruck_name"
+        android:textColor="#000000"
+        android:textSize="@dimen/title_text"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/foodtuck_likes_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="@dimen/basic_margin"
+        android:layout_marginTop="12dp"
+        android:hint="@string/number_likes"
+        android:textColor="#000000"
+        android:textSize="@dimen/normal_text"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toRightOf="@+id/foodtuck_name_textview"
+        app:layout_constraintRight_toLeftOf="@+id/foodtruck_likes_imageview"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/foodtruck_likes_imageview"
+        android:layout_width="@dimen/image_like_dp"
+        android:layout_height="@dimen/image_like_dp"
+        android:layout_marginTop="13.5dp"
+        android:contentDescription="@string/image_like_description"
+        android:src="@drawable/fav_full"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/foodtuck_address_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/foodtruck_address"
+        android:textColor="#000000"
+        android:textSize="@dimen/normal_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodtuck_name_textview" />
+
+    <TextView
+        android:id="@+id/foodtuck_food_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/basic_margin"
+        android:layout_marginTop="1dp"
+        android:hint="@string/food_type"
+        android:textColor="#000000"
+        android:textSize="@dimen/normal_text"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toRightOf="@+id/foodtuck_address_textview"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodtuck_likes_textview" />
+
+    <TextView
+        android:id="@+id/foodtuck_hours_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/opening_hours"
+        android:textColor="#000000"
+        android:textSize="@dimen/normal_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodtuck_address_textview" />
+
+    <TextView
+        android:id="@+id/foodtuck_distance_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/basic_margin"
+        android:layout_marginTop="-9dp"
+        android:hint="@string/foodtruck_distance"
+        android:textColor="#000000"
+        android:textSize="@dimen/normal_text"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toRightOf="@+id/foodtuck_hours_textview"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodtuck_food_textview" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/linear_layout_buttons"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:clickable="false"
+        android:paddingStart="-10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodtuck_hours_textview">
+
+        <ImageButton
+            android:id="@+id/fav_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="@dimen/info_button_width"
+            android:layout_height="@dimen/info_button_height"
+            android:contentDescription="@string/fav_foodtruck"
+            android:scaleX=".6"
+            android:scaleY=".6"
+            android:src="@drawable/fav_stroke"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/comment_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="@dimen/info_button_width"
+            android:layout_height="@dimen/info_button_height"
+            android:layout_marginStart="@dimen/info_button_margin"
+            android:contentDescription="@string/leave_a_comment"
+            android:scaleX=".8"
+            android:scaleY=".8"
+            android:src="@drawable/comment"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/fav_button"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/phone_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="@dimen/info_button_width"
+            android:layout_height="@dimen/info_button_height"
+            android:layout_marginStart="@dimen/info_button_margin"
+            android:contentDescription="@string/call_foodtruck"
+            android:scaleX=".6"
+            android:scaleY=".6"
+            android:src="@drawable/phone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/comment_button"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

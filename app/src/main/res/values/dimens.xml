@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Text-->
+    <dimen name="title_size">58sp</dimen>
+    <dimen name="go_maps_text">40sp</dimen>
+    <dimen name="button_text_size">21sp</dimen>
+    <dimen name="title_text">20sp</dimen>
+    <dimen name="add_foodtruck_text">19sp</dimen>
+    <dimen name="normal_text">16sp</dimen>
+    <dimen name="little_text">13sp</dimen>
+
+    <!--Margin-->
+    <dimen name="basic_margin">8dp</dimen>
+    <dimen name="fragment_margin">35dp</dimen>
+    <dimen name="button_margin">12dp</dimen>
+    <dimen name="button_in_up_margin">25dp</dimen>
+    <dimen name="app_name_margin">80dp</dimen>
+    <dimen name="profile_margin">16dp</dimen>
+    <dimen name="profile_margin_top">35dp</dimen>
+    <dimen name="textview_add_foodtruck_margin_top">25dp</dimen>
+
+    <!--Call to action-->
+    <dimen name="call_to_action_width">350dp</dimen>
+    <dimen name="call_to_action_height">55dp</dimen>
+
+    <!--Divider-->
+        <!--Height-->
+        <dimen name="divider_height">1dp</dimen>
+        <!--Margin-->
+        <dimen name="divider_margin">20dp</dimen>
+
+    <!--InfoButtons-->
+    <dimen name="info_button_width">45dp</dimen>
+    <dimen name="info_button_height">40dp</dimen>
+        <!--Margin-->
+        <dimen name="info_button_margin">15dp</dimen>
+
+    <!--Profile Maps Button-->
+        <!--Width-->
+        <dimen name="button_profile_maps_width">60dp</dimen>
+        <!--Margin-->
+        <dimen name="margin_button_profile">20dp</dimen>
+
+    <!--Go Maps Button-->
+        <!--Width-->
+        <dimen name="button_go_maps_width">70dp</dimen>
+
+    <!--EditText-->
+    <dimen name="edittext_width">295dp</dimen>
+    <dimen name="edittext_height">45dp</dimen>
+        <!--EditText Add Foodtruck-->
+        <dimen name="edittext_add_foodtruck_height">70dp</dimen>
+
+    <!--Images-->
+    <dimen name="truck_image_menu">166dp</dimen>
+    <dimen name="image_like_dp">20dp</dimen>
+        <!--Sign in / up Truck-->
+        <dimen name="image_sign_in_up_width">232dp</dimen>
+        <dimen name="image_sign_in_up_height">191dp</dimen>
+
+</resources>

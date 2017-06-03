@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.skrij.gravytruck.AddFoodtruckActivity">
+
+    <TextView
+        android:id="@+id/title_add_foodtruck_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/profile_margin"
+        android:layout_marginTop="@dimen/profile_margin_top"
+        android:text="@string/title_add_foodtruck"
+        android:textColor="#000000"
+        android:textSize="@dimen/title_text"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/foodtruck_name_suggestion_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/profile_margin"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/name_suggestion_foodtruck"
+        android:textColor="#000000"
+        android:textSize="@dimen/add_foodtruck_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_add_foodtruck_textview" />
+
+    <EditText
+        android:id="@+id/foodtruck_name_suggestion_edittext"
+        android:layout_width="@dimen/edittext_width"
+        android:layout_height="@dimen/edittext_add_foodtruck_height"
+        android:layout_marginStart="@dimen/profile_margin"
+        android:layout_marginTop="@dimen/basic_margin"
+        android:hint="@string/hint_name_suggestion_foodtruck"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textSize="@dimen/normal_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodtruck_name_suggestion_textview" />
+
+    <TextView
+        android:id="@+id/foodtruck_address_suggestion_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/profile_margin"
+        android:layout_marginTop="@dimen/textview_add_foodtruck_margin_top"
+        android:fontFamily="sans-serif"
+        android:text="@string/foodtruck_address_suggestion"
+        android:textColor="#000000"
+        android:textSize="@dimen/add_foodtruck_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodtruck_name_suggestion_edittext" />
+
+    <EditText
+        android:id="@+id/foodtruck_address_suggestion_edittext"
+        android:layout_width="@dimen/edittext_width"
+        android:layout_height="@dimen/edittext_add_foodtruck_height"
+        android:layout_marginStart="@dimen/profile_margin"
+        android:layout_marginTop="@dimen/basic_margin"
+        android:hint="@string/hint_foodtruck_address_suggestion"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textSize="@dimen/normal_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodtruck_address_suggestion_textview" />
+
+    <TextView
+        android:id="@+id/foodtruck_other_suggestion_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/profile_margin"
+        android:layout_marginTop="@dimen/textview_add_foodtruck_margin_top"
+        android:fontFamily="sans-serif"
+        android:text="@string/more_suggestion"
+        android:textColor="#000000"
+        android:textSize="@dimen/add_foodtruck_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodtruck_address_suggestion_edittext" />
+
+    <EditText
+        android:id="@+id/foodtruck_other_suggestion_edittext"
+        android:layout_width="@dimen/edittext_width"
+        android:layout_height="@dimen/edittext_add_foodtruck_height"
+        android:layout_marginStart="@dimen/profile_margin"
+        android:layout_marginTop="@dimen/basic_margin"
+        android:hint="@string/hint_more_suggestion"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:textSize="@dimen/normal_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodtruck_other_suggestion_textview" />
+
+    <Button
+        android:id="@+id/send_suggestion_button"
+        android:layout_width="@dimen/call_to_action_width"
+        android:layout_height="@dimen/call_to_action_height"
+        android:layout_marginBottom="@dimen/button_in_up_margin"
+        android:background="@drawable/button_background"
+        android:fontFamily="sans-serif"
+        android:stateListAnimator="@null"
+        android:text="@string/send_suggestion"
+        android:textSize="@dimen/button_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
