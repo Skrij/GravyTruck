@@ -66,11 +66,7 @@
 
     <!--API-->
         <!--Our-->
-        <string name="api_address">http://138.68.228.13</string>
-        <string name="api_key">351972ebb54568</string>
         <!--Google Direction-->
-        <string name="DIRECTION_URL_API">https://maps.googleapis.com/maps/api/directions/json?</string>
-        <string name="API_DIRECTION_KEY">AIzaSyAJAbj0DDOkVHEEtRv4Du879UR9GzEYK3Q</string>
 
     <!--Images-->
     <string name="foodtruck_image_home">Foodtruck avec ville en arrière-plan</string>
