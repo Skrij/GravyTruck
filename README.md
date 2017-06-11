@@ -5,4 +5,4 @@ Locate the closest food trucks.
 Get all the information you need to choose where you want to eat.
 Go to the food truck.
 
-<img src="screenshots/maps.png" width="48">
+<img src="screenshots/maps.png" width="200">
