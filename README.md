@@ -5,7 +5,8 @@ Locate the closest food trucks.
 Get all the information you need to choose where you want to eat.
 Go to the food truck.
 
-</n>
+
+
 
 <p align="center">
   <img src="screenshots/maps.png" width="300" >
