@@ -45,7 +45,7 @@ public class AddFoodtruckActivity extends AppCompatActivity {
                     // Need to create an email client to it directly
 
 //                    Intent mEmail = new Intent(Intent.ACTION_SEND);
-//                    mEmail.putExtra(Intent.EXTRA_EMAIL, new String[]{"maelle.gaonac-h@hetic.net"});
+//                    mEmail.putExtra(Intent.EXTRA_EMAIL, new String[]{""});
 //                    mEmail.putExtra(Intent.EXTRA_SUBJECT, "Nouveau foodtruck : " + foodtruckNameSuggestion);
 //                    mEmail.putExtra(Intent.EXTRA_TEXT, "Nom : " + foodtruckNameSuggestion
 //                            + "\nAdresse : " + foodtrucAddressSuggestion
